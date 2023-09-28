@@ -19,19 +19,27 @@ function ternaryCheckCity(city){
   else if (city === 'Pittsburgh') {
     return 'No go.';
   }
+  
   // Write your code here!
 }
 
 function switchOnCharmFromTip(tip){
   // Write your code here!
-  if ( tip === "generous"){
+  switch(true) {
+  case tip === "generous":
     return 'Thank you so much.';
-  }
-  else if ( tip === "not as generous"){
+
+  case tip === "not as generous":
     return 'Thank you.';
-  }
-  else if ( tip === 'thanks for everything'){
+  
+  case tip === 'thanks for everything':
     return 'Bye.';
   }
 
 }
+//if(city === "NYC"){
+ // return 'Ok, sounds good.';
+//}
+//else if (city === 'Pittsburgh') {
+ // return 'No go.';
+//}
